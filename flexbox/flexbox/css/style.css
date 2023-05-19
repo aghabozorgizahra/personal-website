@@ -1,0 +1,304 @@
+/* App Fonts */
+
+@font-face {
+    font-family: "TTNorms";
+    src: url("../fonts/TTNorms-Regular.otf") format("openType");
+}
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("../fonts/TTNorms-Medium.otf") format("openType");
+}
+@font-face {
+    font-family: "TTNorms Light";
+    src: url("../fonts/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+    font-family: "Times Roman Italic";
+    src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+body {
+    font-family: "TTNorms";
+    margin: 0;
+}
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+
+}
+.container-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                   
+.header-btns{
+    text-decoration: none;
+    color: white;
+    background-color: #2f5bea;
+    padding: 0.8rem 1.5em;
+    border-radius: 0.4rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+.header-left{
+flex-basis: 50%;
+}
+.header-title{
+    font-family: 'TTNormS Medium';
+
+}
+.header-txt{
+    color: #6c6c6c;
+    line-height: 2rem;
+}
+.header-right{
+    flex-basis: 50%;
+
+
+}
+.header-right > img {
+    width: 100%;
+}
+.header-links{
+    margin-top: 1rem ;
+    display: inline-block;
+
+}
+#header-links-1{
+    background-color: #c0c923;
+}
+.header-wrap{
+    max-width: 28rem;
+}
+.header-bottom{
+    margin-top: 8rem;
+}
+
+/* -----------------------------start main----------------------------*/
+/* .main{} */
+.works{
+    text-align: center;
+}
+.works-text{
+    text-align: center;
+    
+}
+.works-title{
+    margin-top: 0.8rem;
+
+}
+.works-content{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.work-content-item{
+    color: #081D43;
+    text-align: center;
+
+}
+.work-content-title{
+    color: #081D43;
+
+}
+.work-content-text{
+    color: #6c6c6c;
+}
+.work-img{
+    max-width: 31rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.work-img >  img  {
+    width: 100%;
+    margin: auto;
+}
+
+/* Person-Comments Section */
+
+
+
+
+.person-comments{
+    background-color: #2F5BEA;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.person-comments__title{
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+}
+.person-comments__text{
+    font-family: "TTNorms Light";
+
+}
+.comments{
+    margin: 3.5rem 0;
+    display: flex;
+}
+.comment{
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17rem;
+}
+.comment__content{
+    text-align: left;
+    padding: 1.2rem;
+}
+.comment__body{
+    font-family: 'Times Roman Italic';
+    color: #7E8085;
+    line-height: 1.5rem;
+    margin: 0;
+}
+.comment__info{
+    display: flex;
+    border-top: 1px solid #E8EBEF;
+    padding: 0.8rem 1.2rem;
+    align-items: center;
+}
+/* .comment__img{
+
+} */
+.comment__person{
+    color: #000000;
+    margin: 0 0 0 0.5rem;
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.companies__img{
+    display: block;
+    margin: 1rem;
+}
+
+/*----------------------Start Footer----------------------*/
+
+
+.newsletter{
+    background-color: #2C57E4;
+
+    padding: 4.5rem 0;
+    color: #fff;
+}
+.newsletter__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter__text{
+    font-size: 1.6rem;
+}
+.newsletter__email{
+    background: #fff;
+    flex-basis: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+    border-radius: 0.5rem;
+}
+.newsletter__txt{
+    border: none;
+    outline: none;
+}
+.newsletter__btn{
+    background: #2F5BEA;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.copy-right{
+    color: #6C7890;
+    padding: 1rem 0;
+}
+.copy-right__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
